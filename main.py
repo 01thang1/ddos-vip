@@ -5,7 +5,7 @@ import random
 import os
 print (''' 
 
-\033[1;36m © Copyright Trần Nguyên Khánh ! Tool Đéo Miễn Phí Thích Thì Share !!!
+\033[1;36m © Copyright Trần Nguyên Khánh ! 
 \033[1;35m [>___> _ *]  By TNK Ddos Version: [ Riêng Tư ]
 \033[1;31m [>___> _ *]  Link: https://github.com/ngkhanhh  	
 \033[1;37m                                                                             
